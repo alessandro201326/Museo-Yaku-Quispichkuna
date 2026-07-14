@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Museo Digital - Yaku Quispichkuna</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+
+<h1>💧 Museo Digital</h1>
+
+<h2>Yaku Quispichkuna</h2>
+
+
+<p>
+
+Una experiencia interactiva para comprender la importancia del agua,
+crear conciencia y descubrir cómo la innovación puede ayudarnos a
+transformar nuestros hábitos.
+
+</p>
+
+
+<button onclick="mostrarSala(1)">
+Comenzar recorrido
+</button>
+
+
+</div>
+
+</header>
+
+
+
+<nav>
+
+
+<button onclick="mostrarSala(1)">
+👥 Quiénes somos
+</button>
+
+
+<button onclick="mostrarSala(2)">
+💧 Importancia del agua
+</button>
+
+
+<button onclick="mostrarSala(3)">
+🚰 Problema
+</button>
+
+
+<button onclick="mostrarSala(4)">
+🤖 Water Counter
+</button>
+
+
+<button onclick="mostrarSala(5)">
+🏃 Campaña
+</button>
+
+
+<button onclick="mostrarSala(6)">
+🌱 Acciones
+</button>
+
+
+<button onclick="mostrarSala(7)">
+📊 Datos
+</button>
+
+
+<button onclick="mostrarSala(8)">
+🏆 Créditos
+</button>
+
+
+</nav>
+
+
+
+<main>
+
+
+
+<section class="sala activa" id="sala1">
+
+
+
+
+<h2>👥 ¿Quiénes somos?</h2>
+
+
+<p>
+
+Somos <strong>Yaku Quispichkuna</strong>, un equipo conformado por cinco estudiantes:
+Alessandro Aquino, Dylan Orellana, Eithan Ordosgoitti, Matias Ruiz y Gabriela Puma.
+
+Nuestro nombre representa nuestra misión: promover el cuidado del agua
+mediante la innovación, la tecnología y la participación de la comunidad educativa.
+
+</p>
+
+
+<p>
+
+Nuestro propósito es crear conciencia sobre la importancia de utilizar el agua
+de manera responsable, demostrando que pequeños cambios en nuestros hábitos
+pueden generar grandes beneficios para nuestro planeta.
+
+</p>
+
+
+<p>
+
+A través de este museo digital buscamos compartir información, presentar nuestra
+propuesta tecnológica y motivar a más personas a formar parte del cambio hacia
+un futuro más sostenible.
+
+</p>
+
+
+<div class="dato">
+
+ "El cambio comienza cuando una persona decide cuidar aquello que todos necesitamos."
+
+</div>
+
+
+</section>
+<!-- ===================== SALA 2 ===================== -->
+
+<section class="sala" id="sala2">
+
+
+
+<h2>💧 Sala 2: La importancia del agua</h2>
+
+
+
+<p>
+
+El agua es uno de los recursos más importantes para la existencia de la vida.
+Todos los seres vivos dependen de ella para sobrevivir, desarrollarse y mantener
+el equilibrio de los ecosistemas. Sin agua no sería posible la vida en nuestro planeta.
+
+</p>
+
+
+<p>
+
+Aunque gran parte de la Tierra está cubierta por agua, la mayoría es agua salada
+y no puede ser utilizada directamente por las personas. Por eso, el agua dulce
+disponible para nuestro consumo es un recurso limitado que debemos proteger.
+
+</p>
+
+
+<p>
+
+En nuestra vida diaria utilizamos agua para actividades esenciales como beber,
+preparar alimentos, realizar nuestra higiene, producir productos y mantener
+limpios nuestros espacios. Sin embargo, muchas veces no somos conscientes de
+la cantidad que utilizamos y de la importancia de cambiar nuestros hábitos.
+
+</p>
+
+
+<p>
+
+Cuidar el agua no significa dejar de utilizarla, sino aprender a usar solamente
+la cantidad necesaria. Cada acción responsable, por pequeña que parezca,
+contribuye a conservar este recurso para las futuras generaciones.
+
+</p>
+
+
+<div class="dato">
+
+🌎 "El agua que cuidamos hoy será la que permitirá construir el futuro de mañana."
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- ===================== SALA 3 ===================== -->
+
+<section class="sala" id="sala3">
+
+
+<img src="img/importancia.jpg.png" alt="Importancia del agua">
+
+
+<h2> Sala 3: El problema del uso irresponsable del agua</h2>
+
+
+<p>
+
+Actualmente, uno de los mayores desafíos relacionados con el agua es la falta de
+conciencia sobre su uso adecuado. Muchas personas utilizan este recurso sin
+considerar que cada acción diaria influye en su conservación.
+
+</p>
+
+
+<p>
+
+En las instituciones educativas, hogares y diferentes espacios de la sociedad,
+existen hábitos que pueden generar un consumo innecesario de agua. La falta de
+información y educación ambiental provoca que muchas veces no valoremos la
+importancia de este recurso.
+
+</p>
+
+
+<p>
+
+El problema no solamente está relacionado con la cantidad de agua que utilizamos,
+sino también con nuestra actitud frente a ella. Si no aprendemos a gestionar y
+controlar nuestro consumo, podemos afectar la disponibilidad de este recurso en
+el futuro.
+
+</p>
+
+
+<p>
+
+Por esta razón, consideramos necesario crear herramientas que ayuden a las
+personas a conocer mejor sus hábitos de consumo y motivarlas a tomar decisiones
+más responsables.
+
+</p>
+
+
+<div class="dato">
+
+💧 "La solución comienza cuando dejamos de ver el agua como algo infinito y empezamos a valorarla como un recurso esencial."
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- ===================== SALA 4 INICIO ===================== -->
+
+<section class="sala" id="sala4">
+
+
+
+
+<h2> Sala 4: Nuestra propuesta - Water Counter</h2>
+
+
+<p>
+
+Para enfrentar esta problemática desarrollamos nuestra propuesta llamada
+<strong>Water Counter</strong>, una solución tecnológica creada para promover
+la conciencia sobre el consumo de agua.
+
+</p>
+
+
+<p>
+
+Water Counter busca que los usuarios puedan conocer y reflexionar sobre la
+cantidad de agua que utilizan, convirtiendo un dato que normalmente pasa
+desapercibido en una oportunidad para mejorar nuestros hábitos.
+
+</p>
+<!-- ===================== SALA 4 CONTINUACIÓN ===================== -->
+
+<p>
+
+Nuestra propuesta utiliza la tecnología como una herramienta educativa, ya que
+no solo busca mostrar información, sino también generar una reflexión sobre
+nuestro comportamiento y la manera en que utilizamos este recurso.
+
+</p>
+
+
+<p>
+
+Con Water Counter queremos motivar a los estudiantes a convertirse en agentes
+de cambio, demostrando que conocer nuestro consumo es el primer paso para
+desarrollar hábitos más responsables.
+
+</p>
+
+
+<p>
+
+Esta solución representa la unión entre innovación y conciencia ambiental,
+porque permite transformar datos en acciones que beneficien a nuestra comunidad
+educativa y al planeta.
+
+</p>
+
+
+<div class="dato">
+
+ "Medir nos permite conocer, conocer nos permite mejorar y mejorar nos permite cuidar."
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- ===================== SALA 5 ===================== -->
+
+<section class="sala" id="sala5">
+
+
+
+<h2> Sala 5: Campaña - Un compromiso por el agua</h2>
+
+<img src="img/basura.png.avif" alt="Campaña de concientización">
+
+<p>
+
+Como parte de nuestra propuesta, planteamos una campaña de concientización
+dirigida a los colegios, con el objetivo de motivar a los estudiantes a
+reflexionar sobre sus hábitos y fortalecer la responsabilidad ambiental.
+
+</p>
+
+
+<p>
+
+Esta campaña busca generar participación mediante actividades que permitan a
+los estudiantes demostrar su compromiso con el cuidado del agua, promoviendo
+el trabajo en equipo, la creatividad y la importancia de tomar buenas decisiones.
+
+</p>
+
+
+<h3>🏆 Reconocimiento: Medio día de deportes</h3>
+
+
+<p>
+
+Los tres colegios que obtengan los mejores resultados dentro de la campaña
+recibirán como reconocimiento un <strong>medio día de deportes</strong>.
+Esta actividad será un espacio de integración, diversión y celebración por
+haber demostrado mayor compromiso con el uso responsable del agua.
+
+</p>
+
+
+<p>
+
+El objetivo de este reconocimiento es motivar la participación y demostrar que
+los esfuerzos realizados para cuidar nuestro planeta también pueden convertirse
+en experiencias positivas para toda la comunidad educativa.
+
+</p>
+
+
+<h3> Para los colegios que no ingresen al top 3</h3>
+
+
+<p>
+
+Los colegios que no logren ubicarse dentro de los tres primeros puestos recibirán
+una <strong>charla motivadora de concientización</strong>, donde podrán conocer
+la importancia de sus acciones y cómo pueden seguir mejorando sus hábitos
+relacionados con el cuidado del agua.
+
+</p>
+
+
+<p>
+
+Esta charla tendrá como finalidad recordar que el verdadero objetivo de la
+campaña no es solamente competir, sino lograr que cada estudiante comprenda que
+sus decisiones diarias pueden generar un impacto positivo.
+
+</p>
+
+
+<div class="dato">
+
+🌱 "Cada colegio puede ser parte del cambio. El compromiso de hoy construye un futuro con más agua para todos."
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- ===================== SALA 6 ===================== -->
+
+<section class="sala" id="sala6">
+
+
+
+<h2>🌱 Sala 6: Acciones responsables</h2>
+
+
+<p>
+
+Cuidar el agua depende de nuestras acciones diarias. Aunque parezcan pequeñas,
+nuestras decisiones pueden generar una gran diferencia cuando muchas personas
+trabajan con el mismo objetivo.
+
+</p>
+
+
+<p>
+
+Algunas acciones responsables son utilizar solamente el agua necesaria,
+evitar desperdiciarla, promover la educación ambiental y compartir información
+que ayude a otras personas a comprender la importancia de este recurso.
+
+</p>
+
+
+<p>
+
+Desde nuestra institución podemos crear una cultura donde todos participemos en
+el cuidado del agua, convirtiendo nuestros hábitos en ejemplos positivos para
+nuestra comunidad.
+
+</p>
+
+
+<div class="dato">
+
+💧 "El futuro del agua depende de las decisiones que tomemos en el presente."
+
+</div>
+
+
+</section>
+<!-- ===================== SALA 7 ===================== -->
+
+<section class="sala" id="sala7">
+
+
+
+
+<h2> Sala 7: Datos y reflexión</h2>
+
+<img src="img/images.pngh.jpg" alt="Datos del agua">
+
+<p>
+
+El agua es un recurso fundamental para todos los seres vivos, pero su disponibilidad
+no es ilimitada. Aunque nuestro planeta tiene una gran cantidad de agua, solo una
+pequeña parte puede ser utilizada directamente por las personas.
+
+</p>
+
+
+<p>
+
+Cada día nuestras decisiones influyen en el cuidado de este recurso. Acciones como
+reducir el consumo innecesario, crear conciencia y compartir información pueden
+generar un impacto positivo en nuestra sociedad.
+
+</p>
+
+
+<p>
+
+La educación ambiental es una herramienta importante para cambiar la forma en que
+vemos el agua. Cuando comprendemos su valor, dejamos de considerarla algo común y
+empezamos a protegerla como un recurso esencial para la vida.
+
+</p>
+
+
+<h3> Preguntemonos </h3>
+
+
+<p>
+
+¿Qué cambios podríamos realizar en nuestra vida diaria para demostrar que realmente
+valoramos el agua?
+
+</p>
+
+
+<div class="dato">
+
+ "El cambio más grande comienza con una pequeña acción realizada por muchas personas."
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- ===================== SALA 8 ===================== -->
+
+<section class="sala" id="sala8">
+
+
+
+<h2>🏆 Créditos</h2>
+
+
+<p>
+
+Este museo digital fue creado por el equipo
+<strong>Yaku Quispichkuna</strong>, un grupo de estudiantes que busca generar
+conciencia sobre el uso responsable del agua mediante la innovación y la
+tecnología.
+
+</p>
+
+
+<p>
+
+A través de nuestra propuesta <strong>Water Counter</strong>, buscamos demostrar
+que la información y la participación pueden convertirse en herramientas para
+crear mejores hábitos y construir una comunidad más responsable.
+
+</p>
+
+
+
+<h3>👥 Integrantes del equipo</h3>
+
+
+<ul>
+
+<li> Alessandro Aquino</li>
+
+<li> Dylan Orellana</li>
+
+<li> Eithan Ordosgoitti</li>
+
+<li> Matias Ruiz</li>
+
+<li> Gabriela Puma</li>
+
+</ul>
+
+
+<div class="dato">
+
+🚀 "Yaku Quispichkuna: transformando conciencia en acciones para cuidar el agua."
+
+</div>
+
+
+</section>
+
+
+</main>
+
+
+
+
+<!-- ===================== PIE DE PÁGINA ===================== -->
+
+
+<footer>
+
+
+<h2>💧 Museo Digital Yaku Quispichkuna</h2>
+
+
+<p>
+
+Water Counter - Una propuesta para crear conciencia y promover el uso responsable del agua.
+
+</p>
+
+
+<p>
+
+© 2026 | Proyecto desarrollado por Yaku Quispichkuna
+
+</p>
+
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
